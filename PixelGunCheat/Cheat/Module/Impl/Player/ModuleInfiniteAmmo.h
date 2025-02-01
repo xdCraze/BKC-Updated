@@ -18,9 +18,9 @@ public:
         
             void* item_record = get_element(arg, 0x6b8); // itemRecord
             set_bool(item_record, 0x6c, true); // isUnlimitedAmmo
-            set_int(item_record, 0x20, 9999); // ammoInClip
+            set_int(item_record, 0x30, 9999); // ammoInClip
             set_int(item_record, 0xb0, 9999); // modulesClipAmmoModifier
-            set_int(item_record, 0x58, 9999); // initialAmmo
+            set_int(item_record, 0x70, 9999); // initialAmmo
         }
     }
 };

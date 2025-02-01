@@ -12,7 +12,7 @@
 #include <d3d10.h>
 #include <d3d11.h>
 #include <filesystem>
-#include <imgui.h>
+#include "Cheat/ImGui/imgui.h"
 #include <stdbool.h>
 
 #include "Cheat/Gui/imgui_hooker.h"

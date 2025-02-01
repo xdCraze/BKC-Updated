@@ -166,6 +166,14 @@
   <ItemGroup>
     <ClCompile Include="Cheat\Gui\imgui_hooker.cpp" />
     <ClCompile Include="Cheat\Hooks\Hooks.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_impl_dx10.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Cheat\ImGui\imgui_widgets.cpp" />
     <ClCompile Include="Cheat\Internal\Functions.cpp" />
     <ClCompile Include="Cheat\Logger\Logger.cpp">
       <AssemblerOutput>NoListing</AssemblerOutput>
@@ -259,6 +267,15 @@
     <ClInclude Include="Cheat\Gui\Notification.h" />
     <ClInclude Include="Cheat\Hooks\GlobalModuleDeclarations.h" />
     <ClInclude Include="Cheat\Hooks\Hooks.h" />
+    <ClInclude Include="Cheat\ImGui\imconfig.h" />
+    <ClInclude Include="Cheat\ImGui\imgui.h" />
+    <ClInclude Include="Cheat\ImGui\imgui_impl_dx10.h" />
+    <ClInclude Include="Cheat\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="Cheat\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="Cheat\ImGui\imgui_internal.h" />
+    <ClInclude Include="Cheat\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Cheat\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Cheat\ImGui\imstb_truetype.h" />
     <ClInclude Include="Cheat\Internal\Functions.h" />
     <ClInclude Include="Cheat\Logger\Logger.h" />
     <ClInclude Include="Cheat\Module\Impl\Combat\ModuleAimBot.h" />

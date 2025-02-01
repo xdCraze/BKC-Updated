@@ -290,7 +290,7 @@ bool Hooks::is_player_enemy(void* player)
 
 bool is_my_player_move_c(void* player_move_c)
 {
-    return Hooks::get_player_name(player_move_c) == "#Player Nickname";
+    return Hooks::get_player_name(player_move_c) == "1111";
 }
 
 bool is_my_player_weapon_sounds(void* weapon_sounds)
@@ -988,7 +988,6 @@ void Hooks::load()
     MH_Initialize();
 
     // Hook Functions Here
-    
     hook_function(Offsets::PlayerMoveCUpdate, &player_move_c, &player_move_c_original);
     hook_function(Offsets::WeaponSoundsUpdate, &weapon_sounds_call, &weapon_sounds_original);
     hook_function(Offsets::WeaponSoundsLateUpdate, &weapon_sounds_late_call, &weapon_sounds_late_original);

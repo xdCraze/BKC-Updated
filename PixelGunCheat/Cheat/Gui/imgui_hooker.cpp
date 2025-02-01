@@ -1,7 +1,7 @@
-#include <imgui.h>
-#include <imgui_impl_win32.h>
-#include <imgui_impl_dx10.h>
-#include <imgui_impl_dx11.h>
+#include "../ImGui/imgui.h"
+#include "../ImGui/imgui_impl_win32.h"
+#include "../ImGui/imgui_impl_dx10.h"
+#include "../ImGui/imgui_impl_dx11.h"
 #include <iostream>
 #include <sstream>
 #include <d3d11.h>
@@ -694,7 +694,13 @@ void BKCImGuiHooker::start(void* g_mainRenderTargetView, void* g_pd3dDevice, voi
             DrawClientSettingsWindow(is_dx_11);
             break;
         default:
-            ImGui::Text("Welcome to Boykisser Central (official version), Happy Modding!");
+            ImGui::TextColored({ 1.0f, 0.0f, 0.0f, 1.0f }, "DISCLAIMER:");
+            ImGui::SameLine();
+            ImGui::Text("This software is NO LONGER being maintained! It has been discontinued!");
+
+            ImGui::Spacing();
+
+            ImGui::Text("Welcome to Boykisser Central (updated by @.xdcraze), Happy Modding!");
             ImGui::SameLine();
             ImGui::TextColored({ 1.0f, 0.0f, 0.0f, 1.0f }, "<3");
             ImGui::Text("For support join ");
