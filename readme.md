@@ -9,7 +9,7 @@
 ## READ ME!
 - This Program is no longer being updated by the original creators.
 - I will **NOT** constantly be updating this, I only did it because I was bored.
-- If you want a cheat that stays updated, use [Moonlight]([https://discord.gg/EWWyBS3QdY](https://discord.gg/XSG3KGUstz))
+- If you want a cheat that stays updated, use [Moonlight](https://discord.gg/XSG3KGUstz)
 
 ## Warning!
 - This Program is FREE SOFTWARE.
