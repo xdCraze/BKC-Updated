@@ -1,10 +1,15 @@
-﻿# PixelGun3D Internal Utility Modification
-(official version)
-`by hiderikzki and stanuwu`
+﻿# BKC Updated
+(forked version)
+`original by hiderikzki and stanuwu`
 
 > LTS Mode: Offsets will be updated but broken features will not be fixed.
 
 > Issues on GitHub are only for bugs! If you need support or want to give suggestions please join the discord! Issues not related to the code will be closed!
+
+## READ ME!
+- This Program is no longer being updated by the original creators.
+- I will **NOT** constantly be updating this, I only did it because I was bored.
+- If you want a cheat that stays updated, use [Moonlight]([https://discord.gg/EWWyBS3QdY](https://discord.gg/XSG3KGUstz))
 
 ## Warning!
 - This Program is FREE SOFTWARE.
